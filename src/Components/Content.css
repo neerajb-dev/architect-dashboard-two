@@ -1,0 +1,13 @@
+.content {
+    height: 100vh;
+}
+
+.card {
+    z-index: -1;
+}
+
+@media(min-width: 768px) {
+    .content {
+        margin-left: 300px;
+    }
+}
