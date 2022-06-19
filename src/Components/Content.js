@@ -5,7 +5,7 @@ import Weather from "./Weather";
 
 const Content = () => {
     return (
-        <div className="content bg-transparent">
+        <div className="content">
             <div className="container-fluid overflow-auto">
                 <div className="row dashboard__header bg-white text-lg-start justify-content-sm-center justify-content-center align-items-center pe-sm-2 p-2">
                     <img className="col-sm-3 d-none d-md-inline-block" src={img} alt="" style={{ width: "100px" }} />
@@ -15,7 +15,7 @@ const Content = () => {
                     </div>
                     <button className="btn btn-primary col-3 col-sm-3">Button</button>
                 </div>
-                <div className="row">
+                <div className="row mt-3">
                     <div className="col-sm-12">
                         <div className="card text-bg-light mb-3">
                             <div className="card-header">
@@ -90,17 +90,5 @@ const Content = () => {
         </div>
     )
 };
-
-
-{/* <div className="card text-bg-light mb-3">
-    <div className="card-header">
-        Header
-    </div>
-    <div className="card-body">
-        <h5 className="card-title">Title</h5>
-        <p className="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, reiciendis?</p>
-    </div>
-</div> */}
-
 
 export default Content;
