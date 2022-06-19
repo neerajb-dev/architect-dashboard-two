@@ -1,6 +1,7 @@
 import React from "react";
 import "./Content.css";
 import img from "../Assets/car.png";
+import Weather from "./Weather";
 
 const Content = () => {
     return (
@@ -26,69 +27,61 @@ const Content = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="col-sm-6 col-lg-4">
+                    <div className="col-lg-6">
                         <div className="card text-bg-light mb-3">
                             <div className="card-header">
-                                Header
+                               <h3>Weather</h3>
                             </div>
                             <div className="card-body">
-                                <h5 className="card-title">Title</h5>
-                                <p className="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, reiciendis?</p>
+                                <Weather />
                             </div>
                         </div>
                     </div>
-                    <div className="col-lg-4 col-sm-6">
-                        <div className="card text-bg-light mb-3">
-                            <div className="card-header">
-                                Header
+                    <div className="col-lg-6">
+                        <div className="row">
+                            <div className="col-md-12 col-lg-6">
+                                <div className="card text-bg-light mb-3">
+                                    <div className="card-header">
+                                        Header
+                                    </div>
+                                    <div className="card-body">
+                                        <h5 className="card-title">Title</h5>
+                                        <p className="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, reiciendis?</p>
+                                    </div>
+                                </div>
                             </div>
-                            <div className="card-body">
-                                <h5 className="card-title">Title</h5>
-                                <p className="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, reiciendis?</p>
+                            <div className="col-md-12 col-lg-6">
+                                <div className="card text-bg-light mb-3">
+                                    <div className="card-header">
+                                        Header
+                                    </div>
+                                    <div className="card-body">
+                                        <h5 className="card-title">Title</h5>
+                                        <p className="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, reiciendis?</p>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-sm-6">
-                        <div className="card text-bg-light mb-3">
-                            <div className="card-header">
-                                Header
+                            <div className="col-md-12 col-lg-6">
+                                <div className="card text-bg-light mb-3">
+                                    <div className="card-header">
+                                        Header
+                                    </div>
+                                    <div className="card-body">
+                                        <h5 className="card-title">Title</h5>
+                                        <p className="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, reiciendis?</p>
+                                    </div>
+                                </div>
                             </div>
-                            <div className="card-body">
-                                <h5 className="card-title">Title</h5>
-                                <p className="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, reiciendis?</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-sm-6">
-                        <div className="card text-bg-light mb-3">
-                            <div className="card-header">
-                                Header
-                            </div>
-                            <div className="card-body">
-                                <h5 className="card-title">Title</h5>
-                                <p className="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, reiciendis?</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-sm-6">
-                        <div className="card text-bg-light mb-3">
-                            <div className="card-header">
-                                Header
-                            </div>
-                            <div className="card-body">
-                                <h5 className="card-title">Title</h5>
-                                <p className="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, reiciendis?</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="col-lg-4 col-sm-6">
-                        <div className="card text-bg-light mb-3">
-                            <div className="card-header">
-                                Header
-                            </div>
-                            <div className="card-body">
-                                <h5 className="card-title">Title</h5>
-                                <p className="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, reiciendis?</p>
+                            <div className="col-md-12 col-lg-6">
+                                <div className="card text-bg-light mb-3">
+                                    <div className="card-header">
+                                        Header
+                                    </div>
+                                    <div className="card-body">
+                                        <h5 className="card-title">Title</h5>
+                                        <p className="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, reiciendis?</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -97,5 +90,17 @@ const Content = () => {
         </div>
     )
 };
+
+
+{/* <div className="card text-bg-light mb-3">
+    <div className="card-header">
+        Header
+    </div>
+    <div className="card-body">
+        <h5 className="card-title">Title</h5>
+        <p className="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Numquam, reiciendis?</p>
+    </div>
+</div> */}
+
 
 export default Content;

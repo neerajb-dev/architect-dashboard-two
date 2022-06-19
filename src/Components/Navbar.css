@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 
+.navbar {
+    z-index: 1000;
+}
+
 .navbar-brand {
     font-family: 'Allura', cursive;
 }

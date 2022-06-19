@@ -9,7 +9,7 @@ const Dashboard = () => {
         <div className="dashboard">
             <Navbar />
             <Sidebar />
-            <Content /> 
+            <Content />
         </div>
     )
 };

@@ -2,9 +2,13 @@
     height: 100vh;
 }
 
-.card {
+/* .card {
     z-index: -1;
 }
+
+.weather-card {
+    z-index: 1;
+} */
 
 @media(min-width: 768px) {
     .content {
