@@ -1,25 +1,24 @@
 import React from "react";
 import "./Sidebar.css";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Sidebar = () => {
     return (
         <div className="sidebar d-none d-md-inline-block">
             <div className="container-fluid">
-                <Router>
                     <ul className="nav nav-pills flex-column text-start mb-auto">
                         <li className="nav-item">
                             {/* <a href="#" className="nav-link" aria-current="page"> */}
                             <Link to="/" className="nav-link">
-                                <i class="fas fa-home me-2"></i>
+                                <i className="fas fa-home me-2"></i>
                                 Home
                             </Link>
                             {/* </a> */}
                         </li>
                         <li className="nav-item">
                             {/* <a href="#" className="nav-link link-dark active"> */}
-                            <Link to="/Dashboard" className="nav-link">
-                                <i class="fas fa-tachometer-alt-fast me-2"></i>
+                            <Link to="/home" className="nav-link">
+                                <i className="fas fa-tachometer-alt-fast me-2"></i>
                                 Dashboard
                             </Link>
                             {/* </a> */}
@@ -27,7 +26,7 @@ const Sidebar = () => {
                         <li className="nav-item" >
                             {/* <a href="#" className="nav-link link-dark"> */}
                             <Link to="/Orders" className="nav-link">
-                                <i class="fas fa-table me-2"></i>
+                                <i className="fas fa-table me-2"></i>
                                 Orders
                             </Link>
                             {/* </a> */}
@@ -35,7 +34,7 @@ const Sidebar = () => {
                         <li className="nav-item">
                             {/* <a href="#" className="nav-link link-dark"> */}
                             <Link to="/Products" className="nav-link">
-                                <i class="fas fa-th me-2"></i>
+                                <i className="fas fa-th me-2"></i>
                                 Products
                             </Link>
                             {/* </a> */}
@@ -43,13 +42,12 @@ const Sidebar = () => {
                         <li className="nav-item">
                             {/* <a href="#" className="nav-link link-dark"> */}
                             <Link to="/Customers" className="nav-link">
-                                <i class="fas fa-user-circle me-2"></i>
+                                <i className="fas fa-user-circle me-2"></i>
                                 Customers
                             </Link>
                             {/* </a> */}
                         </li>
                     </ul>
-                </Router>
                 <hr />
                 <div className="dropdown">
                     <a href="#" className="d-flex align-items-center link-dark text-decoration-none dropdown-toggle" id="dropdownUser2" data-bs-toggle="dropdown" aria-expanded="false">

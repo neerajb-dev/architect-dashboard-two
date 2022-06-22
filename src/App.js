@@ -1,13 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
-import Dashboard from './Components/Dashboard';
-import Weather from './Components/Weather';
+import { Routes, Route } from 'react-router-dom';
+import Home from './Routes/Home/Home';
+import Navbar from './Components/Navbar';
+import Sidebar from './Components/Sidebar';
 
 function App() {
   return (
-    <div className="App">
-      <Dashboard />
-    </div>
+    <Routes>
+      <Route path="/" element={<Navbar />} >
+        <Route index element={<Sidebar />} />
+        <Route path='home' element={<Home />}/>
+      </Route>
+    </Routes>
   );
 }
 
