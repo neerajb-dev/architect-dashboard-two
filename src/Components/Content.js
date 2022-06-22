@@ -2,6 +2,8 @@ import React from "react";
 import "./Content.css";
 import img from "../Assets/car.png";
 import Weather from "./Weather";
+import Posts from "./Posts";
+import User from "./User";
 
 const Content = () => {
     return (
@@ -30,13 +32,14 @@ const Content = () => {
                     <div className="col-lg-6">
                         <div className="card text-bg-light mb-3">
                             <div className="card-header">
-                               <h3>Weather</h3>
+                                <h3>Weather</h3>
                             </div>
                             <div className="card-body">
                                 <Weather />
                             </div>
                         </div>
                     </div>
+
                     <div className="col-lg-6">
                         <div className="row">
                             <div className="col-md-12 col-lg-6">
@@ -83,6 +86,8 @@ const Content = () => {
                                     </div>
                                 </div>
                             </div>
+                            {/* <Posts /> */}
+                            {/* <User /> */}
                         </div>
                     </div>
                 </div>
